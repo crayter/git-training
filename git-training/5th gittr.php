@@ -13,3 +13,7 @@ if ($light == 'green') {
 echo ($light == 'green') ? 'You can go now' : 'Stop';
 
 echo $price ? $price : 'unknown price';
+echo '<br>';
+
+$test = $price ?: 'unknown price';
+var_dump($test);
