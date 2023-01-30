@@ -43,3 +43,7 @@ echo '<br>';
 $a = (3 == 3) and (3 < 2); // true && false
 var_dump($a); // true
 echo '<br>';
+
+$name = 'John';
+echo 'Hello ' . $name;
+echo '<br>';
