@@ -22,3 +22,17 @@ var_dump('3' !== '3');
 echo '<br>';
 var_dump(3 !== '3');
 echo '<br>';
+
+$a = 3;
+var_dump($a++);
+var_dump($a);
+
+var_dump(++$a);
+var_dump($a);
+
+var_dump($a--);
+var_dump($a);
+
+var_dump(--$a);
+var_dump($a);
+echo '<br>';
